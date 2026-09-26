@@ -1,0 +1,39 @@
+{
+  "mode": "balanced",
+  "n": 150,
+  "overall_accuracy": 0.7266666666666667,
+  "per_class": {
+    "POSITIVE": {
+      "n": 50,
+      "correct": 48,
+      "accuracy": 0.96
+    },
+    "NEUTRAL": {
+      "n": 50,
+      "correct": 12,
+      "accuracy": 0.24
+    },
+    "NEGATIVE": {
+      "n": 50,
+      "correct": 49,
+      "accuracy": 0.98
+    }
+  },
+  "confusion": {
+    "POSITIVE": {
+      "POSITIVE": 48,
+      "NEUTRAL": 1,
+      "NEGATIVE": 1
+    },
+    "NEUTRAL": {
+      "POSITIVE": 7,
+      "NEUTRAL": 12,
+      "NEGATIVE": 31
+    },
+    "NEGATIVE": {
+      "POSITIVE": 1,
+      "NEUTRAL": 0,
+      "NEGATIVE": 49
+    }
+  }
+}

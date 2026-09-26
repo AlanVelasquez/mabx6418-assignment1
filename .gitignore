@@ -1,0 +1,15 @@
+# data is large and re-downloadable — do not commit
+data/
+
+# regeneratable full-dataset dumps
+gift_cards_reviews.csv
+gift_cards_reviews.parquet
+
+# per-review LLM cache and run logs
+output/_cache/
+output/*_run.log
+
+# python
+__pycache__/
+*.pyc
+.venv/

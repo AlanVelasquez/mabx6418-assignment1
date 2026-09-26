@@ -1,0 +1,27 @@
+{
+  "mode": "batch1",
+  "n": 100,
+  "overall_accuracy": 0.97,
+  "per_class": {
+    "POSITIVE": {
+      "n": 93,
+      "correct": 91,
+      "accuracy": 0.978494623655914
+    },
+    "NEGATIVE": {
+      "n": 7,
+      "correct": 6,
+      "accuracy": 0.8571428571428571
+    }
+  },
+  "confusion": {
+    "POSITIVE": {
+      "POSITIVE": 91,
+      "NEGATIVE": 2
+    },
+    "NEGATIVE": {
+      "POSITIVE": 1,
+      "NEGATIVE": 6
+    }
+  }
+}
