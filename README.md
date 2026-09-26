@@ -134,7 +134,7 @@ The two agree only ~1 time in 9 — they are measuring different things. *Detail
 
 A **single self-contained `dashboard.html`** (no server, no network, no external libraries) presents everything:
 
-![Dashboard overview](media/dashboard-overview.png)
+![Full dashboard — balanced three-class run](media/dashboard-hero.png)
 
 - **Headline KPIs** — reviews scored, overall accuracy, per-class recall.
 - **Star-rating distribution** of the scored set.
